@@ -1,0 +1,42 @@
+#main-doc{
+  margin-left: 300px;
+  max-width: 900px;
+  height: auto;
+  padding: 1em;
+  margin-bottom: -40px;
+}
+.main-section{
+  display: block;
+}
+.main-section  header{
+  display: block;
+  background-color: #10ac84;
+}
+.main-section header > h2{
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 600px){
+  #main-doc{
+    margin-left: 0;
+    padding-top: 70px;
+  }
+}
+#code_content{
+  display: block;
+  background-color: #dfe6e9;
+  color: #ff7675;
+  padding: 2em;
+}
+/*
+
+
+
+
+<p>
+</p><br>
+
+
+
+
+*/
